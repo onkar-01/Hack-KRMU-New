@@ -24,7 +24,7 @@ nav {
   z-index: 2;
   position: fixed;
   width: 100%;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 .sticky {
   background-color: #000c30;
@@ -51,7 +51,7 @@ nav {
   border-bottom-style: solid;
 }
 .nav-logo-img {
-  top: 1px;
+  top: -1px;
   left: 10px;
   width: 60px;
   margin-left: 60px;
@@ -564,7 +564,7 @@ nav {
 
 /* footer */
 .footer {
-  background-color: #000000;
+  background-color: #000c30;
   padding-top: 20px;
   text-align: left;
   width: 100%;
@@ -614,7 +614,7 @@ footer .footer-logo {
 }
 .footer .footer-logo img {
   width: 150px;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 .footer p {
@@ -1344,7 +1344,7 @@ h6 {
 @media (max-width: 850px) {
   .glimpse {
     height: 110vh;
-    background: url(images/glimps-bg.jpeg);
+    background: url(images/gli-bg.png);
     padding: 0 12%;
   }
 
@@ -1407,7 +1407,7 @@ h6 {
   }
   .glimpse {
     height: 70vh;
-    background: url(images/glimps-bg.jpeg);
+    background: url(images/gli-bg.png);
     padding: 0 10%;
   }
 
